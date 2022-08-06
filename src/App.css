@@ -1,0 +1,130 @@
+body{
+  background: rgb(202, 202, 202);
+}
+.div-meses div::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+.div-meses div::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255); 
+  border-radius: 20px;       /* color of the tracking area */
+}
+
+.div-meses div::-webkit-scrollbar-thumb {
+  background: #3d4d91;  /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+}
+.App {
+    text-align: center;
+}
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    background: #3d4d91;
+
+}
+
+.bg-login{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 45%, rgba(246,246,246,1) 45%, rgba(246,246,246,1) 100%);
+}
+
+.bg-blue{
+  background: #3d4d91;
+
+}
+
+.filter-blur-4{
+  filter: blur(1px);
+}
+
+.border-radius{
+  border-radius: 20px
+}
+
+.border-radius-2{
+  border-radius: 40px
+}
+
+.div-meses{
+  margin-top: 105px;
+  height: calc(100vh - 120px);
+  padding-top: 70px;
+}
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  right: 30px;
+  top: 15px;
+  background-image: url(img/avatar/avatar.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.bm-burger-button:hover {
+  opacity: 80%;
+}
+
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 15px;
+  width: 15px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+    top: 0;
+    width: 250px !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    width: 250px !important;
+  background: #3d4d91;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    width: 10px !important;
+  fill: #ffffff;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    top: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+/* AVATAR STYLE */
+.avatar{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  
+}
