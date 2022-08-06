@@ -91,11 +91,11 @@ function Post() {
                     <div className='overflow-hidden h-100 text-center'>
                         {
                         getExt(postObject.image) ? 
-                            <a href={`http://${URI}/server/images/posts/${postObject.image}`} className="btn my-2" download={postObject.title}>
+                            <a href={`${URI}/server/images/posts/${postObject.image}`} className="btn my-2" download={postObject.title}>
                                 <img alt="file" src={require('../img/source/file.png')} className="d-block mx-auto" style={{width: 100}} />
                             </a>
                             :
-                            <img alt={postObject.title} src={`http://${URI}/server/images/posts/${postObject.image}`} className="border-0 img-fluid"/>
+                            <img alt={postObject.title} src={`${URI}/server/images/posts/${postObject.image}`} className="border-0 img-fluid"/>
                         }
                     </div>
                 </div>
